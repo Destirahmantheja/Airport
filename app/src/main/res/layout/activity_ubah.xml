@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah Airport"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_sejarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sejarah"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_luas_bandara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Luas Bandara"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_kota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kota"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_tahun_berdiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun berdiri"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btn_ubah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UBAH"
+        android:textStyle="bold"
+        android:backgroundTint="#A76F6F"/>
+
+
+</LinearLayout>

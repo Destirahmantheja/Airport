@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Airport"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_sejarah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sejarah"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_luas_bandara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Luas Bandara"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_kota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kota"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/et_tahun_berdiri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun berdiri"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAH"
+        android:textStyle="bold"
+        android:backgroundTint="#A76F6F"/>
+
+</LinearLayout>
