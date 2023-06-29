@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.uas.airport.API.APIRequestData;
 import com.uas.airport.API.RetroServer;
+import com.uas.airport.Activity.DetailActivity;
 import com.uas.airport.Activity.MainActivity;
 import com.uas.airport.Activity.UbahActivity;
 import com.uas.airport.Model.ModelAirport;

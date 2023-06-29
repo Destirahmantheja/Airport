@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.uas.airport.API.APIRequestData;
@@ -17,6 +18,7 @@ import com.uas.airport.Model.ModelAirport;
 import com.uas.airport.Model.ModelResponse;
 import com.uas.airport.R;
 
+import com.uas.airport.Activity.MainActivity;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -79,7 +81,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<ModelResponse> call, Throwable t) {
-                
+                Toast.makeText(MainActivity.this, "Gagal Menghubungi Server!", Toast.LENGTH_SHORT).show();
+                pbAirport.setVisibility(View.GONE);
             }
         });
     }
